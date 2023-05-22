@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 const clientId = 'bebdc78d50e64a2fb888375a178c01d0';
-const redirectURI = 'http://spotify-top-chi.vercel.app/home';
+const redirectURI = 'https://amirfest-suljkanovicamir.vercel.app/home';
 
 
 

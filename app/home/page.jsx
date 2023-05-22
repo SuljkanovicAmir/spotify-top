@@ -10,7 +10,7 @@ const amatic = Amatic_SC({
   subsets: ['latin'],
 });
 
-const redirectURI = 'http://spotify-top-chi.vercel.app/home';
+const redirectURI = 'https://amirfest-suljkanovicamir.vercel.app/home';
 
 
 async function getAccessToken(clientId, code) {
