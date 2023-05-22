@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import './globals.css'
 import { Oswald } from 'next/font/google';
-Link
+import SpotifyImg from '../public/spotify.svg'
+import Image from 'next/image';
+
 
 const oswald = Oswald({
   weight: '700',
@@ -18,6 +20,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={oswald.className}>
         <header>
+            <Link href="https://spotify.com" target='_blank'>
+              <Image src={SpotifyImg}  alt='spotify' height={30} width={30}/>
+            </Link>
             <Link href="/">Spotify Stats</Link> 
         </header>
         {children}
