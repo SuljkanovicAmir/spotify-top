@@ -8,11 +8,7 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-  },
-  webpack: (config) => {
-    config.plugins.push(new dotenv({ path: './.env.production' }))
-    return config
-  },
+  }
 }
 
 module.exports = nextConfig
