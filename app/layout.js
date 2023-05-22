@@ -1,6 +1,8 @@
+import Link from 'next/link';
 import './globals.css'
 import { Oswald } from 'next/font/google';
- 
+Link
+
 const oswald = Oswald({
   weight: '700',
   subsets: ['latin'],
@@ -16,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={oswald.className}>
         <header>
-            Spotify Stats
+            <Link href="/">Spotify Stats</Link> 
         </header>
         {children}
         </body>

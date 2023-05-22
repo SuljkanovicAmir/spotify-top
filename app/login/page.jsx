@@ -60,7 +60,7 @@ const LoginPage = () => {
     }, []);
 
 
-    return <div>Redirecting to Spotify login...</div>;
+    return <div className='login'>Redirecting to Spotify login...</div>;
   };
 
   
