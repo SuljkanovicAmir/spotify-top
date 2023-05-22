@@ -77,7 +77,6 @@ header {
 
 .home-div {
   height: 100vh;  
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -118,5 +117,14 @@ header {
   .artists {
     width: 90%;
     height: 120px;
+  }
+  .home-div {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 10px 60px 10px;
   }
 }

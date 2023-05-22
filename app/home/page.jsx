@@ -5,7 +5,7 @@ import { parseCookies, setCookie } from 'nookies';
 import { redirectToAuthCodeFlow } from '../login/page';
 
 
-const redirectURI = 'http://localhost:3000/home';
+const redirectURI = 'http://spotify-top-chi.vercel.app/home';
 
 
 async function getAccessToken(clientId, code) {
